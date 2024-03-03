@@ -23,14 +23,14 @@ The system utilizes six CSV files to store car and user information:
 
 ### 3.Customers.csv: 
 #### Columns: 
-**name (string)**: Customer's full name .
+**name (string)**: Customer's full name .  <br>
 **id (string)**: Unique customer ID .
 **pwd (string)**: Customer's password .
 **record (string)**: Customers record based on his maintenance of rented cars.
 
 ### 4.Employee.csv:
 #### Columns: 
-Employee (string): Employee name.
+Employee (string): Employee name.\n
 Employee_id (string): Unique employee ID.
 password (string): Employee's password for login.
 record (string): Employee record based on his maintenance of rented cars.
@@ -44,7 +44,7 @@ record (string): Additional manager-specific data.
 
 ### 6.rented_cars_data.csv:
 #### Columns: 
-user id(string): user id is the id of the user who issued the car.
+user id(string): user id is the id of the user who issued the car. 
 name of car :  Model name of the rented car.
 reg_no (string): Registration number of the rented car (unique identifier of  a car).
 timestamp: timestamp stores the time when the user issued which will help us in calculating the total price to be payed by users.
