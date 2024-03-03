@@ -15,11 +15,11 @@ The system utilizes six CSV files to store car and user information:
 
 ### 2.user_info.csv:
 #### Columns: 
-**name (string)**: User's full name.
- **id (string)**: Unique user ID (unique identifier of  a user).
- **password (string)**: User's password for login.
-  **type_of_user (string)**: User type ( 1 ="Customer", 2 = "Employee", 3 = "Manager").
-  **user_record (string)**: Users record based on his maintenance of rented cars.
+**name (string)**: User's full name. <br>
+ **id (string)**: Unique user ID (unique identifier of  a user). <br>
+ **password (string)**: User's password for login. <br>
+  **type_of_user (string)**: User type ( 1 ="Customer", 2 = "Employee", 3 = "Manager"). <br>
+  **user_record (string)**: Users record based on his maintenance of rented cars.<br>
 
 ### 3.Customers.csv: 
 #### Columns: 
@@ -37,18 +37,17 @@ The system utilizes six CSV files to store car and user information:
 
 ### 5.Manager.csv:
 #### Columns: 
-**Manager_name (string):** Manager's name.
-**Manager_id (string):** Unique manager ID.
-**pwd (string):** Manager's password for login.
-**record (string):** Additional manager-specific data.
+**Manager_name (string):** Manager's name. <br>
+**Manager_id (string):** Unique manager ID. <br>
+**pwd (string):** Manager's password for login. <br>
+**record (string):** Additional manager-specific data. <br>
 
 ### 6.rented_cars_data.csv:
 #### Columns: 
-**user id(string):** user id is the id of the user who issued the car. 
-**name of car :** Model name of the rented car.
-**reg_no (string)**: Registration number of the rented car (unique identifier of  a car).
-**timestamp:** timestamp stores the time when the user issued which will help us in calculating the total price to be payed by users.
-
+**user id(string):** user id is the id of the user who issued the car. <br>
+**name of car :** Model name of the rented car.<br>
+**reg_no (string)**: Registration number of the rented car (unique identifier of  a car). <br>
+**timestamp:** timestamp stores the time when the user issued which will help us in calculating the total price to be payed by users.<br>
 
 
 To run the system, type the following commands in the console:
