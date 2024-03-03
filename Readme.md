@@ -6,7 +6,7 @@ This document outlines the data structure and functionalities of a Car Rental Sy
 The system utilizes six CSV files to store car and user information:
 
 ### 1.all_cars_data.csv:
-Columns:
+####Columns: 
 model_of_car (string): Name of the car model.
 rent_per_day (float): Daily rental fee.
 car_condition (string): Condition of the car (3 types - Bad, Good, Excellent).
