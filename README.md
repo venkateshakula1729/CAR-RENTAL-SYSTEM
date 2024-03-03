@@ -46,10 +46,11 @@ The system utilizes six CSV files to store car and user information:
 **user id(string):** user id is the id of the user who issued the car. <br>
 **name of car :** Model name of the rented car.<br>
 **reg_no (string)**: Registration number of the rented car (unique identifier of  a car). <br>
-**timestamp:** timestamp stores the time when the user issued which will help us in calculating the total price to be payed by users.<br>
+**timestamp:** timestamp stores the time when the user issued, which will help us in calculating the total price to be payed by users.<br>
 
-
-To run the system, type the following commands in the console:
+### Instructions
+Download the zip file of the repository and navigate to the downloaded folder. Then 
+ type the following commands in the console to run the system:
 ``` 
 g++ main.cpp -o main
 .\main
