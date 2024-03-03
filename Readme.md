@@ -7,26 +7,26 @@ The system utilizes six CSV files to store car and user information:
 
 ### 1.all_cars_data.csv:
 #### Columns: 
-model_of_car (string): Name of the car model.
-rent_per_day (float): Daily rental fee.
-car_condition (string): Condition of the car (3 types - Bad, Good, Excellent).
-reg_no (string): Registration number of the car (unique identifier of  a car).
-is_rented (boolean): Indicates whether the car is currently rented (1) or available (0).
+##### model_of_car (string): Name of the car model.
+##### rent_per_day (float): Daily rental fee.
+##### car_condition (string): Condition of the car (3 types - Bad, Good, Excellent).
+##### reg_no (string): Registration number of the car (unique identifier of  a car).
+##### is_rented (boolean): Indicates whether the car is currently rented (1) or available (0).
 
 ### 2.user_info.csv:
 #### Columns: 
-name (string): User's full name.
-id (string): Unique user ID (unique identifier of  a user).
-password (string): User's password for login.
-type_of_user (string): User type ( 1 ="Customer", 2 = "Employee", 3 = "Manager").
-user_record (string): Users record based on his maintenance of rented cars.
+#####  name (string): User's full name.
+#####  id (string): Unique user ID (unique identifier of  a user).
+##### password (string): User's password for login.
+#####  type_of_user (string): User type ( 1 ="Customer", 2 = "Employee", 3 = "Manager").
+#####  user_record (string): Users record based on his maintenance of rented cars.
 
 ### 3.Customers.csv: 
 #### Columns: 
-name (string): Customer's full name .
-id (string): Unique customer ID .
-pwd (string): Customer's password .
-record (string): Customers record based on his maintenance of rented cars.
+**name (string)**: Customer's full name .
+**id (string)**: Unique customer ID .
+**pwd (string)**: Customer's password .
+**record (string)**: Customers record based on his maintenance of rented cars.
 
 ### 4.Employee.csv:
 #### Columns: 
