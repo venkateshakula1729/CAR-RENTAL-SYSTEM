@@ -6,7 +6,7 @@ This project is a command-line **Car Rental System** developed as part of the **
 
 ---
 
-# ** Running the System**
+# **Running the System**
 
 ### **1. Clone/Download**
 
