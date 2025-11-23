@@ -43,11 +43,17 @@ This folder acts as the database and contains six comma-separated values files t
 ---
 
 **Database Folder:** 
+
 **all_cars_data.csv:** This file contains information about all cars in the system. It includes the columns model_of_car, rent_per_day, car_condition, reg_no and is_rented.
+
 **Users_info.csv:** This file stores general login information of all users. It contains name, id, password, type_of_user and user_record.
+
 **Customers.csv:** This file contains information about customers. It includes name, id, pwd and record.
+
 **Employee.csv:** This file contains information about employees. It includes Employee, Employee_id, password and record.
+
 **Manager.csv:** This file stores manager details. It includes Manager_name, Manager_id, pwd and record.
+
 **rented_cars_data.csv:** This file records all active rentals. It contains user_id, name_of_car, reg_no and timestamp to track when a car was issued.
 
 ---
