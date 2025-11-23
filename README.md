@@ -53,8 +53,6 @@ All changes made during program execution will automatically update the correspo
 
 This folder acts as the database and contains six comma-separated values files to store all user and car information.
 
----
-
 **Database Folder:** 
 
 **all_cars_data.csv:** This file contains information about all cars in the system. It includes the columns model_of_car, rent_per_day, car_condition, reg_no and is_rented.
