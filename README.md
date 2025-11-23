@@ -16,6 +16,10 @@ The system is built around **five core classes**, each encapsulating a major com
 * **Manager** – The administrative subclass of *User* with full system-wide privileges. Managers perform all **CRUD** operations on users and cars, search records, inspect rentals, and view system-wide status.
 
 * **Car** – A dedicated operational class responsible for all car-specific tasks, including adding, updating, deleting, searching, checking availability, retrieving condition, and routing rental requests to the appropriate user logic.
+  
+<p align="center">
+  <img src="Class diagram.png" alt="Car Rental System" width="700" height="800">
+</p>
 
 ---
 
