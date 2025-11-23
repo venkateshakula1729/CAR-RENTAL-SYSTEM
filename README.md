@@ -4,6 +4,19 @@
 
 This project is a command-line **Car Rental System** developed as part of the **CS253** course for the 2023–24 (II) semester. The application is fully implemented in **C++**, using **file handling** to maintain a persistent CSV-based database. Through a simple terminal interface, users perform **CRUD operations** on cars, user accounts, and rental records, along with renting, returning, and fine-related workflows. The repository showcases a complete, functional implementation of core **object-oriented programming principles**, including class design, inheritance, and modular functionality.
 
+
+The system is built around **five core classes**, each encapsulating a major component of the application:
+
+* **User** – The foundational class implementing shared functionality such as authentication, viewing available cars, renting and returning vehicles, checking/clearing fines, and maintaining user records. All user types inherit these base capabilities.
+
+* **Customer** – Inherits from *User* and represents standard renters. It enforces customer-specific constraints, including stricter rental limits, shorter rental durations, and higher fine rates.
+
+* **Employee** – Also derived from *User*, but with relaxed rental caps and discounted fines. Employees follow similar workflows as customers, with modified eligibility rules.
+
+* **Manager** – The administrative subclass of *User* with full system-wide privileges. Managers perform all **CRUD** operations on users and cars, search records, inspect rentals, and view system-wide status.
+
+* **Car** – A dedicated operational class responsible for all car-specific tasks, including adding, updating, deleting, searching, checking availability, retrieving condition, and routing rental requests to the appropriate user logic.
+
 ---
 
 # **Running the System**
@@ -36,7 +49,7 @@ All changes made during program execution will automatically update the correspo
 
 ---
 
-# **📁 Database Files Overview**
+# **Database Files Overview**
 
 This folder acts as the database and contains six comma-separated values files to store all user and car information.
 
