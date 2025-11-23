@@ -55,9 +55,7 @@ All changes made during program execution will automatically update the correspo
 
 # **Database Files Overview**
 
-This folder acts as the database and contains six comma-separated values files to store all user and car information.
-
-**Database Folder:** 
+This Database folder acts as the database and contains six comma-separated values files to store all user and car information.
 
 **all_cars_data.csv:** This file contains information about all cars in the system. It includes the columns model_of_car, rent_per_day, car_condition, reg_no and is_rented.
 
@@ -76,7 +74,7 @@ This folder acts as the database and contains six comma-separated values files t
 
 # **Features**
 
-### **Customer / Employee**
+### **Customer / Employee:**
 
 Users can **log in or register** using their name, ID, and password. Registration updates the CSV files; invalid login credentials bring errors.
 After logging in, they can:
@@ -100,7 +98,7 @@ After logging in, they can:
 
 ---
 
-### **Manager**
+### **Manager:**
 
 Manager logs in the same way, then can:
 
