@@ -1,59 +1,102 @@
-# CS 253 CAR-RENTAL-SYSTEM 
-This document outlines the data structure and functionalities of a Car Rental System implemented in C++ using object oriented programming paradigms. The code is present in [main.cpp](/main.cpp).
+# **CS 253 — Car Rental System**
+This document outlines the data structure and functionalities of a Car Rental System implemented in C++ using object oriented programming paradigms. The code implementation is present in [main.cpp](/main.cpp).
 
-## Data Files
-The system utilizes six CSV files to store car and user information:
+---
 
-### 1.all_cars_data.csv:
-#### Columns: 
-**model_of_car (string):** Name of the car model. <br>
- **rent_per_day (float):** Daily rental fee. <br>
- **car_condition (string):** Condition of the car (3 types - Bad, Good, Excellent). <br>
- **reg_no (string):** Registration number of the car (unique identifier of  a car). <br>
-**is_rented (boolean):** Indicates whether the car is currently rented (1) or available (0). <br>
+# **📁 Data Files Overview**
 
-### 2.user_info.csv:
-#### Columns: 
-**name (string)**: User's full name. <br>
- **id (string)**: Unique user ID (unique identifier of  a user). <br>
- **password (string)**: User's password for login. <br>
-  **type_of_user (string)**: User type ( 1 ="Customer", 2 = "Employee", 3 = "Manager"). <br>
-  **user_record (string)**: Users record based on his maintenance of rented cars.<br>
+The system manages data using **six CSV files**, each responsible for storing information about cars or users.
 
-### 3.Customers.csv: 
-#### Columns: 
-**name (string)**: Customer's full name .  <br>
-**id (string)**: Unique customer ID .<br>
-**pwd (string)**: Customer's password .<br>
-**record (string)**: Customers record based on his maintenance of rented cars.<br>
+---
 
-### 4.Employee.csv:
-#### Columns: 
-**Employee (string):** Employee name.<br>
-**Employee_id (string):** Unique employee ID.<br>
-**password (string):** Employee's password for login.<br>
-**record (string):** Employee record based on his maintenance of rented cars.<br>
+## **1. `all_cars_data.csv`**
 
-### 5.Manager.csv:
-#### Columns: 
-**Manager_name (string):** Manager's name. <br>
-**Manager_id (string):** Unique manager ID. <br>
-**pwd (string):** Manager's password for login. <br>
-**record (string):** Additional manager-specific data. <br>
+**Columns**
 
-### 6.rented_cars_data.csv:
-#### Columns: 
-**user id(string):** user id is the id of the user who issued the car. <br>
-**name of car :** Model name of the rented car.<br>
-**reg_no (string)**: Registration number of the rented car (unique identifier of  a car). <br>
-**timestamp:** timestamp stores the time when the user issued, which will help us in calculating the total price to be payed by users.<br>
+* **model_of_car** *(string)* — Car model name
+* **rent_per_day** *(float)* — Daily rental cost
+* **car_condition** *(string)* — Condition of the car (**Bad / Good / Excellent**)
+* **reg_no** *(string)* — Unique registration number
+* **is_rented** *(boolean)* — `1` if rented, `0` if available
 
-### Instructions
-Download the zip file of the repository and navigate to the downloaded folder. Then 
- type the following commands in the console to run the system:
-``` 
+---
+
+## **2. `user_info.csv`**
+
+**Columns**
+
+* **name** *(string)* — Full user name
+* **id** *(string)* — Unique user ID
+* **password** *(string)* — Login password
+* **type_of_user** *(string)* — `1 = Customer`, `2 = Employee`, `3 = Manager`
+* **user_record** *(string)* — Record of user's car maintenance behavior
+
+---
+
+## **3. `Customers.csv`**
+
+**Columns**
+
+* **name** *(string)*
+* **id** *(string)*
+* **pwd** *(string)*
+* **record** *(string)* — Car maintenance history
+
+---
+
+## **4. `Employee.csv`**
+
+**Columns**
+
+* **Employee** *(string)* — Employee name
+* **Employee_id** *(string)* — Unique ID
+* **password** *(string)*
+* **record** *(string)* — Maintenance/handling record
+
+---
+
+## **5. `Manager.csv`**
+
+**Columns**
+
+* **Manager_name** *(string)*
+* **Manager_id** *(string)*
+* **pwd** *(string)*
+* **record** *(string)* — Additional manager-specific information
+
+---
+
+## **6. `rented_cars_data.csv`**
+
+**Columns**
+
+* **user_id** *(string)* — ID of the user who rented the car
+* **name_of_car** *(string)* — Rented car model
+* **reg_no** *(string)* — Unique registration number
+* **timestamp** — Time of issue (used for billing calculations)
+
+---
+
+# **▶️ Running the System**
+
+### **1. Download**
+
+Download the ZIP file of the repository and extract it.
+
+### **2. Compile**
+
+Run the following command in your terminal:
+
+```bash
 g++ main.cpp -o main
-.\main
 ```
-The system will run on the console. The data modified throughout the program run will be reflected in the csv files.<br>
-<br>
+
+### **3. Execute**
+
+```bash
+./main
+```
+
+All changes made during program execution will automatically update the corresponding **CSV files**.
+
+---
